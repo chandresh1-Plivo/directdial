@@ -7,6 +7,16 @@ Ready to be used with Heroku.
 
 ## Usage Examples
 ###Default usage => bridge call to the 'To' parameter
+
+* ####Direct Dial <br/>
+http://13.127.140.35:5001/direct-dial/?DialMusic=real&CLID=919624705678
+
+* ####Inbound trunk <br/>
+http://13.127.140.35:5001/response/sip/inbound_trunk/?DESTINATION=13.235.91.239
+
+* ####Outbound trunk <br/>
+https://www.plivo.com/docs/enterprise/outbound-easytrunk#forward-calls-from-your-soft-switch
+
 * ####Set call forwarding <br/>
   http://server/response/sip/route/?ForwardTo=15555559999<br/>
 
